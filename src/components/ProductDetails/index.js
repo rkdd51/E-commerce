@@ -14,7 +14,9 @@ export default function ProductDetails(props) {
       <div>
         <h1>{product?.title}</h1>
         <img width="100" src={product?.image} />
+        <h3>{product.description}</h3>
         <p>price:{product?.price}</p>
+   
       </div>
     </div>
   );
