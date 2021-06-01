@@ -1,0 +1,45 @@
+
+* {
+  
+    box-sizing: border-box;
+    
+  }
+
+.home{
+    background-color: antiquewhite;
+  
+   background-size: cover;
+   background-position: center;
+}
+
+body{
+    background-color:rgb(226, 238, 238);
+    background-color: #fff;
+    font-family: "Lato", "Arial";
+    font-size: 20px;
+}
+
+.rambhagwan{
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 5px;
+    padding:80px;
+    background-color:orange;
+}
+
+.sita{
+    
+    
+    margin: 5px;
+    padding:80px;
+    background-color:white;
+}
+
+.laxman{
+
+    margin: 5px;
+    padding:90px;
+    background-color:green;
+    font-size: 80px;
+}

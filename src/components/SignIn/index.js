@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import './styleSign.css';
 
 const App = () => {
   //Single source of truth is "name"
@@ -47,6 +48,8 @@ const App = () => {
               onChange={inputEvent}
               value={name}
             />
+            <br/>
+            <br/>
 
             <input
               type="password"
@@ -55,13 +58,18 @@ const App = () => {
               value={lastName}
             />
 
+            <br/> 
+            <br/>
+
             <input
               type="email"
               placeholder="Enter your email"
               onChange={inputEventThree}
               value={email}
             />
-            <button type="submit"> Submit </button>
+            <br/>
+            <br/>
+            <button type="submit" style={{padding:"5px" ,  borderRadius:"10px"}}> Submit </button>
           </div>
         </form>
       </div>

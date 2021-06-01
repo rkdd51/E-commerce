@@ -5,7 +5,7 @@ import "./styleproduct.css";
 export default function Product() {
   const [products, setProducts] = useState([]);
   const [isProductsAdded, setIsProductAdded] = useState(false);
-
+  
   
   useEffect(() => {
    
@@ -16,20 +16,25 @@ export default function Product() {
   }, [isProductsAdded]);
 
 
+
   return (
     <div className="product">
+    
       {products.map((product, index) => (
         <Link to={`product/${product.id}`}>
           <div>
+          
             <h1 className="rahul">{product.title}</h1>
-            <h3>{product.category}</h3>
-            <h3>{product.price}</h3>
-  
+            <h3 className='category'>{product.category}</h3>
             <img width="100" src={product.image} />
-            <p>price:{product.price}</p>
+            <p className="price">price:{product.price}</p>
+       
           </div>
+          
         </Link>
+        
       ))}
+      
     </div>
   );
 }

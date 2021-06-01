@@ -14,6 +14,9 @@ export default function Navigation() {
       <Link to="/signin">
         <div>Signin</div>
       </Link>
+      <Link to="/cart">
+        <div>Cart</div>
+      </Link>
     </div>
   );
 }

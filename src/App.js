@@ -4,10 +4,13 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Product from "./components/Product";
 import SignIn from "./components/SignIn";
+import Cart from "./components/Cart";
 import ProductDetails from "./components/ProductDetails";
 
 
 export default function App() {
+
+ 
   return (
     <div className="App">
       <BrowserRouter>
@@ -16,6 +19,7 @@ export default function App() {
         <Route exact path="/product" component={Product} />
         <Route path="/signin" component={SignIn} />
         <Route path="/product/:id" component={ProductDetails} />
+        <Route path="/cart" component={Cart} />
       </BrowserRouter>
     </div>
   );

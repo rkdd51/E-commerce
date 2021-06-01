@@ -3,13 +3,22 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     grid-gap: 200px;
+   
     
 
 }
 
 .rahul{
     text-decoration: none;
-    background-color: aqua;
+    background-color:orange;
+    font-size:20px;
+}
+.price{
+    font-size:20px;
+    padding:0px;
+    background-color:lightgreen;
+}
 
-
+.category{
+    background-color:white;
 }
